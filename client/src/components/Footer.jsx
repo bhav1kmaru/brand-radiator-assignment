@@ -7,8 +7,8 @@ const Footer = () => {
       <div
         style={{
           display: "flex",
-          justifyContent: "space-between",
-          padding: "10px",
+          justifyContent: "space-around",
+  
         }}
       >
         <Link style={{ color: "white" }} to="/">

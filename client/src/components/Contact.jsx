@@ -46,7 +46,7 @@ const Contact = () => {
         <input value={email} onChange={(e)=>setEmail(e.target.value)} type="email" placeholder="eg: john@example.com" /><br /><br />
         <label>Message </label><br />
         <textarea value={message} onChange={(e)=>setMessage(e.target.value)} style={{height:"100px",width:"200px"}} /> <br /><br />
-        <button onClick={handleSubmit} style={{padding:"10px",backgroundColor:"black",color:"white",borderRadius:"10px",cursor:"pointer"}}>Contact Us</button>
+        <button onClick={handleSubmit} style={{padding:"10px",backgroundColor:"black",color:"white",borderRadius:"10px",cursor:"pointer",border:"none"}}>Contact Us</button>
       </div>
     </div>
   );

@@ -56,6 +56,7 @@ const SideBar = () => {
         <div className="nav-menu">
           {menuItems.map(({ text, route }) => (
             <Link
+            key={text}
               className={isExpanded ? "menu-item" : "menu-item menu-item-NX"}
               to={route}
             >
