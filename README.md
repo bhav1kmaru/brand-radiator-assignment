@@ -13,3 +13,7 @@
 
 ```npm install```
 ```npm run server```
+
+## Admin Credentials:
+email: admin@xyz.com 
+password: admin123
